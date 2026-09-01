@@ -1,5 +1,3 @@
-
-
 export const enviroment = {
   production: false,
   azure: {
@@ -12,4 +10,3 @@ export const enviroment = {
   },
   apiBaseURL: 'http://localhost:8080/api'
 };
-
