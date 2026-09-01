@@ -1,13 +1,1 @@
-<main>
-  <h1>{{ title() }}</h1>
-
-  <button type="button" *ngIf="!isLoggedIn()" (click)="login()">
-    Iniciar sesión
-  </button>
-
-  <button type="button" *ngIf="isLoggedIn()" (click)="logout()">
-    Cerrar sesión
-  </button>
-
-  <router-outlet></router-outlet>
-</main>
+<router-outlet></router-outlet>
